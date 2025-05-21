@@ -1,0 +1,1479 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.27)  15 MAY 2025 09:09
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex"
+(c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(latex4ei/latex4ei_sheet.cls
+
+LaTeX Warning: You have requested document class `latex4ei/latex4ei_sheet',
+               but the document class provides `latex4ei_sheet'.
+
+Document Class: latex4ei_sheet 2014/03/30 Cheet Sheet Template from LaTeX4EI
+\c@columnnumber=\count196
+(C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrartcl.cls
+Document Class: scrartcl 2024/10/24 v3.43 KOMA-Script document class (article)
+(C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.sty
+Package: scrkbase 2024/10/24 v3.43 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
+Package: scrbase 2024/10/24 v3.43 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.sty
+Package: scrlfile 2024/10/24 v3.43 KOMA-Script package (file load hooks)
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-hook.sty
+Package: scrlfile-hook 2024/10/24 v3.43 KOMA-Script package (using LaTeX hooks)
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
+Package: scrlogo 2024/10/24 v3.43 KOMA-Script package (logo)
+))) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line 370.
+)) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\tocbasic.sty
+Package: tocbasic 2024/10/24 v3.43 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip49
+\scr@dte@tocline@numbox=\box52
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 135.
+
+
+Package scrartcl Warning: You've used deprecated option `6pt'.
+(scrartcl)                Usage of this option indicates an old document
+(scrartcl)                and changes compatibility level using
+(scrartcl)                `fontsize=6pt,version=first,
+(scrartcl)                enabledeprecatedfontcommands' that may result
+(scrartcl)                in further warnings.
+(scrartcl)                If you don't want this, you should simply
+(scrartcl)                replace option `6pt' by `fontsize=6pt'.
+
+Class scrartcl Info: Switching compatibility level to `first'.
+
+Class scrartcl Warning: Switching back to an old KOMA-Script release does
+(scrartcl)              not mean, that KOMA-Script is fully compatible with
+(scrartcl)              the old release. If you need full compatibility
+(scrartcl)              to an old KOMA-Script release, you should use that
+(scrartcl)              old KOMA-Script release. However, in that case you
+(scrartcl)              could also need old releases of other packages and
+(scrartcl)              even of the LaTeX kernel.
+(scrartcl)              Please also note, that the KOMA-Script developers
+(scrartcl)              refuse support for documents using `version=first'.
+(scrartcl)              We recommend to eliminate all deprecated options
+(scrartcl)              and commands. We also recommend to not use option
+(scrartcl)              `version', i.e., with other values than `last'.
+
+
+Class scrartcl Warning: deprecated option `enabledeprecatedfontcommands'.
+(scrartcl)              Note, that this option was already depreacted when
+(scrartcl)              it has been defined. Support for old font commands
+(scrartcl)              has been removed from KOMA-Script more than one
+(scrartcl)              decade ago. It is not recommended to use them any
+(scrartcl)              longer. Therefore usage of this class option also
+(scrartcl)              is not recommended.
+
+(C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\typearea.sty
+Package: typearea 2024/10/24 v3.43 KOMA-Script package (type area)
+\ta@bcor=\skip50
+\ta@div=\count197
+\ta@hblk=\skip51
+\ta@vblk=\skip52
+\ta@temp=\skip53
+\footheight=\skip54
+
+
+Package typearea Warning: DIV for 6.0pt and used papersize
+(typearea)                not defined!
+(typearea)                Using DIV=calc.
+
+
+Package typearea Info: DIV calculation for classic typearea. on input line 1802.
+
+
+Package typearea Warning: Very low DIV value!
+(typearea)                DIV values less than 6 result in textwidth/-height
+(typearea)                smaller than total marginwidth/-height.
+(typearea)                You should e.g. increase DIV, increase fontsize or
+(typearea)                change papersize.
+
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 5
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 239.00317pt
+(typearea)              DIV departure   = 1%
+(typearea)              \evensidemargin = 106.98239pt
+(typearea)              \oddsidemargin  = 106.98239pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 344.39914pt
+(typearea)              \topmargin      = 76.93945pt
+(typearea)              \headheight     = 8.99997pt
+(typearea)              \headsep        = 10.79997pt
+(typearea)              \topskip        = 6.0pt
+(typearea)              \footskip       = 25.19992pt
+(typearea)              \baselineskip   = 7.19998pt
+(typearea)              on input line 1802.
+)
+\c@part=\count198
+\c@section=\count199
+\c@subsection=\count266
+\c@subsubsection=\count267
+\c@paragraph=\count268
+\c@subparagraph=\count269
+\scr@dte@section@maxnumwidth=\skip55
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\section on input line 5107.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\section on input line 5107.
+\scr@dte@part@maxnumwidth=\skip56
+Class scrartcl Info: using compatibility default `afterindent=false'
+(scrartcl)           for `\part on input line 5115.
+\scr@dte@subsection@maxnumwidth=\skip57
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsection on input line 5125.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsection on input line 5125.
+\scr@dte@subsubsection@maxnumwidth=\skip58
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsubsection on input line 5135.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsubsection on input line 5135.
+\scr@dte@paragraph@maxnumwidth=\skip59
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\paragraph on input line 5146.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\paragraph on input line 5146.
+\scr@dte@subparagraph@maxnumwidth=\skip60
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subparagraph on input line 5156.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subparagraph on input line 5156.
+\abovecaptionskip=\skip61
+\belowcaptionskip=\skip62
+\c@pti@nb@sid@b@x=\box53
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 6337.
+\scr@dte@figure@maxnumwidth=\skip63
+\c@figure=\count270
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 6353.
+\scr@dte@table@maxnumwidth=\skip64
+\c@table=\count271
+Class scrartcl Info: Using old \@makefntext due to compatibility level
+(scrartcl)           less than 3.22 on input line 6510.
+Class scrartcl Info: Redefining `\numberline' on input line 6523.
+\bibindent=\dimen141
+) (latex4ei/scientific.sty
+
+LaTeX Warning: You have requested package `latex4ei/scientific',
+               but the package provides `scientific'.
+
+Package: scientific 2015/03/30 Scientific Macros for LaTeX4EI
+(C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2024/11/05 v2.17t AMS math features
+\@mathmargin=\skip65
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen142
+)) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen143
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count272
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count273
+\leftroot@=\count274
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count275
+\DOTSCASE@=\count276
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box54
+\strutbox@=\box55
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen144
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count277
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count278
+\dotsspace@=\muskip17
+\c@parentequation=\count279
+\dspbrk@lvl=\count280
+\tag@help=\toks19
+\row@=\count281
+\column@=\count282
+\maxfields@=\count283
+\andhelp@=\toks20
+\eqnshift@=\dimen145
+\alignsep@=\dimen146
+\tagshift@=\dimen147
+\tagwidth@=\dimen148
+\totwidth@=\dimen149
+\lineht@=\dimen150
+\@envbody=\toks21
+\multlinegap=\skip66
+\multlinetaggap=\skip67
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/esint\esint.sty
+Package: esint 
+\symlargesymbolsA=\mathgroup4
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2025-03-26 v3.4.8 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count284
+\l__siunitx_number_exponent_fixed_int=\count285
+\l__siunitx_number_min_decimal_int=\count286
+\l__siunitx_number_min_integer_int=\count287
+\l__siunitx_number_round_precision_int=\count288
+\l__siunitx_number_lower_threshold_int=\count289
+\l__siunitx_number_upper_threshold_int=\count290
+\l__siunitx_number_group_first_int=\count291
+\l__siunitx_number_group_size_int=\count292
+\l__siunitx_number_group_minimum_int=\count293
+\l__siunitx_angle_tmp_dim=\dimen151
+\l__siunitx_angle_marker_box=\box56
+\l__siunitx_angle_unit_box=\box57
+\l__siunitx_compound_count_int=\count294
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/translations\translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count295
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+\l__siunitx_table_tmp_box=\box58
+\l__siunitx_table_tmp_dim=\dimen152
+\l__siunitx_table_column_width_dim=\dimen153
+\l__siunitx_table_integer_box=\box59
+\l__siunitx_table_decimal_box=\box60
+\l__siunitx_table_uncert_box=\box61
+\l__siunitx_table_before_box=\box62
+\l__siunitx_table_after_box=\box63
+\l__siunitx_table_before_dim=\dimen154
+\l__siunitx_table_carry_dim=\dimen155
+\l__siunitx_unit_tmp_int=\count296
+\l__siunitx_unit_position_int=\count297
+\l__siunitx_unit_total_int=\count298
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
+\col@sep=\dimen156
+\ar@mcellbox=\box64
+\extrarowheight=\dimen157
+\NC@list=\toks23
+\extratabsurround=\skip68
+\backup@length=\skip69
+\ar@cellbox=\box65
+))
+
+Package siunitx Info: Option "per-mode = reciprocal" has been deprecated in
+(siunitx)             this release.
+(siunitx)             
+(siunitx)             Use "per-mode = power" as a replacement.
+
+\knuthian@fdfive=\skip70
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/mhchem\mhchem.sty
+Package: mhchem 2024/01/29 v4.10 for typesetting chemical formulae
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2025-01-18 L3 programming layer (loader) 
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count299
+\l__pdf_internal_box=\box66
+)) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
+Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count300
+\calc@Bcount=\count301
+\calc@Adimen=\dimen158
+\calc@Bdimen=\dimen159
+\calc@Askip=\skip71
+\calc@Bskip=\skip72
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count302
+\calc@Cskip=\skip73
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/chemgreek\chemgreek.sty (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use in chemistry (CN)
+\l__chemgreek_tmpa_int=\count303
+\g__chemgreek_tmpa_int=\count304
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\l__mhchem_ce_distanceFromLastComma_int=\count305
+\__mhchem_arrow_extPgfLength_skip=\skip74
+\mhchem@minispace@tmp=\skip75
+\mhchem@minibackspace@tmp=\skip76
+\mhchem@bondwidth=\skip77
+\mhchem@bondheight=\skip78
+\mhchem@smallbondwidth@tmpA=\skip79
+\mhchem@smallbondwidth@tmpB=\skip80
+\mhchem@smallbondwidth=\skip81
+\mhchem@bondtmp@minussidebearingleft=\skip82
+\mhchem@bondtmp@minussidebearingright=\skip83
+\l__mhchem_option_version_int=\count306
+\mhchem@option@minusmathsidebearingleft=\dimen160
+\mhchem@option@minusmathsidebearingright=\dimen161
+\mhchem@option@minustextsidebearingleft=\dimen162
+\mhchem@option@minustextsidebearingright=\dimen163
+)
+\caplength=\skip84
+LaTeX Font Info:    Trying to load font information for U+esint on input line 163.
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/esint\uesint.fd
+File: uesint.fd 
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 163.
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 163.
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)) (latex4ei/latex4ei.sty
+Package: latex4ei/latex4ei 2013/05/06 Macros for LaTeX4EI
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2025/03/10 v25.5 The multilingual framework for pdfLaTeX, LuaLaTeX and XeLaTeX
+\babel@savecnt=\count307
+\U@D=\dimen164
+\l@unhyphenated=\language79
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count308
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\german.ldf
+Language: german 2024/12/10 v2.15 German support for babel (pre-1996 orthography)
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\germanb.ldf
+Language: germanb 2024/12/10 v2.15 German support for babel (pre-1996 orthography)
+Package babel Info: Making " an active character on input line 139.
+)) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman.ldf
+Language: ngerman 2024/12/10 v2.15 German support for babel (post-1996 orthography)
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngermanb.ldf
+Language: ngermanb 2024/12/10 v2.15 German support for babel (post-1996 orthography)
+))) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/de\babel-ngerman.tex
+Package babel Info: Importing font and identification data for ngerman
+(babel)             from babel-de.ini. Reported on input line 11.
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/de\babel-german.tex
+Package babel Info: Importing font and identification data for german
+(babel)             from babel-de.ini. Reported on input line 25.
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/generic/oberdiek\iflang.sty
+Package: iflang 2018/01/21 v1.7 Checks for the current language (HO)
+Package iflang Info: Naming convention for patterns: babel.
+)
+Package babel Info: 'ngerman' activates 'ngerman' shorthands.
+(babel)             Reported  on input line 38.
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks24
+\inpenc@posthook=\toks25
+) (latex4ei/latex4ei_unicode.sty
+
+LaTeX Warning: You have requested package `latex4ei/latex4ei_unicode',
+               but the package provides `latex4ei_unicode'.
+
+Package: latex4ei_unicode 2013/05/01 Unicode Symbols
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+03B1 (decimal 945)
+   defining Unicode char U+03B2 (decimal 946)
+   defining Unicode char U+03B3 (decimal 947)
+   defining Unicode char U+03B4 (decimal 948)
+   defining Unicode char U+03B5 (decimal 949)
+   defining Unicode char U+03B6 (decimal 950)
+   defining Unicode char U+03B7 (decimal 951)
+   defining Unicode char U+03B8 (decimal 952)
+   defining Unicode char U+03B9 (decimal 953)
+   defining Unicode char U+03BA (decimal 954)
+   defining Unicode char U+03BB (decimal 955)
+   defining Unicode char U+03BC (decimal 956)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+03BD (decimal 957)
+   defining Unicode char U+03BE (decimal 958)
+   defining Unicode char U+03C0 (decimal 960)
+   defining Unicode char U+03C1 (decimal 961)
+   defining Unicode char U+03C3 (decimal 963)
+   defining Unicode char U+03C4 (decimal 964)
+   defining Unicode char U+03C5 (decimal 965)
+   defining Unicode char U+03C6 (decimal 966)
+   defining Unicode char U+03C7 (decimal 967)
+   defining Unicode char U+03C8 (decimal 968)
+   defining Unicode char U+03C9 (decimal 969)
+   defining Unicode char U+0393 (decimal 915)
+   defining Unicode char U+0394 (decimal 916)
+   defining Unicode char U+0398 (decimal 920)
+   defining Unicode char U+039B (decimal 923)
+   defining Unicode char U+039E (decimal 926)
+   defining Unicode char U+03A0 (decimal 928)
+   defining Unicode char U+03A3 (decimal 931)
+   defining Unicode char U+03A6 (decimal 934)
+   defining Unicode char U+03A8 (decimal 936)
+   defining Unicode char U+03A9 (decimal 937)
+   defining Unicode char U+03C2 (decimal 962)
+   defining Unicode char U+03D1 (decimal 977)
+   defining Unicode char U+03D2 (decimal 978)
+   defining Unicode char U+03D5 (decimal 981)
+   defining Unicode char U+03D6 (decimal 982)
+   defining Unicode char U+03F0 (decimal 1008)
+   defining Unicode char U+03F1 (decimal 1009)
+   defining Unicode char U+03F5 (decimal 1013)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2113 (decimal 8467)
+   defining Unicode char U+2202 (decimal 8706)
+   defining Unicode char U+2205 (decimal 8709)
+   defining Unicode char U+2207 (decimal 8711)
+   defining Unicode char U+220F (decimal 8719)
+   defining Unicode char U+2211 (decimal 8721)
+   defining Unicode char U+222B (decimal 8747)
+   defining Unicode char U+222C (decimal 8748)
+   defining Unicode char U+222D (decimal 8749)
+   defining Unicode char U+221D (decimal 8733)
+   defining Unicode char U+221E (decimal 8734)
+   defining Unicode char U+222E (decimal 8750)
+   defining Unicode char U+222F (decimal 8751)
+   defining Unicode char U+2230 (decimal 8752)
+   defining Unicode char U+2A0C (decimal 10764)
+   defining Unicode char U+2102 (decimal 8450)
+   defining Unicode char U+210D (decimal 8461)
+   defining Unicode char U+2115 (decimal 8469)
+   defining Unicode char U+2119 (decimal 8473)
+   defining Unicode char U+211A (decimal 8474)
+   defining Unicode char U+211D (decimal 8477)
+   defining Unicode char U+2124 (decimal 8484)
+   defining Unicode char U+1D53C (decimal 120124)
+   defining Unicode char U+1D542 (decimal 120130)
+   defining Unicode char U+1D54A (decimal 120138)
+   defining Unicode char U+1D54B (decimal 120139)
+   defining Unicode char U+1D54C (decimal 120140)
+   defining Unicode char U+1D7D9 (decimal 120793)
+   defining Unicode char U+2070 (decimal 8304)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+2074 (decimal 8308)
+   defining Unicode char U+2075 (decimal 8309)
+   defining Unicode char U+2076 (decimal 8310)
+   defining Unicode char U+2077 (decimal 8311)
+   defining Unicode char U+2078 (decimal 8312)
+   defining Unicode char U+2079 (decimal 8313)
+   defining Unicode char U+207A (decimal 8314)
+   defining Unicode char U+207B (decimal 8315)
+   defining Unicode char U+207C (decimal 8316)
+   defining Unicode char U+207D (decimal 8317)
+   defining Unicode char U+207E (decimal 8318)
+   defining Unicode char U+2080 (decimal 8320)
+   defining Unicode char U+2081 (decimal 8321)
+   defining Unicode char U+2082 (decimal 8322)
+   defining Unicode char U+2083 (decimal 8323)
+   defining Unicode char U+2084 (decimal 8324)
+   defining Unicode char U+2085 (decimal 8325)
+   defining Unicode char U+2086 (decimal 8326)
+   defining Unicode char U+2087 (decimal 8327)
+   defining Unicode char U+2088 (decimal 8328)
+   defining Unicode char U+2089 (decimal 8329)
+   defining Unicode char U+208A (decimal 8330)
+   defining Unicode char U+208B (decimal 8331)
+   defining Unicode char U+1D43 (decimal 7491)
+   defining Unicode char U+1D47 (decimal 7495)
+   defining Unicode char U+1D9C (decimal 7580)
+   defining Unicode char U+1D48 (decimal 7496)
+   defining Unicode char U+1D49 (decimal 7497)
+   defining Unicode char U+1DA0 (decimal 7584)
+   defining Unicode char U+1D4D (decimal 7501)
+   defining Unicode char U+02B0 (decimal 688)
+   defining Unicode char U+2071 (decimal 8305)
+   defining Unicode char U+02B2 (decimal 690)
+   defining Unicode char U+1D4F (decimal 7503)
+   defining Unicode char U+02E1 (decimal 737)
+   defining Unicode char U+1D50 (decimal 7504)
+   defining Unicode char U+207F (decimal 8319)
+   defining Unicode char U+1D52 (decimal 7506)
+   defining Unicode char U+1D56 (decimal 7510)
+   defining Unicode char U+02B3 (decimal 691)
+   defining Unicode char U+02E2 (decimal 738)
+   defining Unicode char U+1D57 (decimal 7511)
+   defining Unicode char U+1D58 (decimal 7512)
+   defining Unicode char U+1D5B (decimal 7515)
+   defining Unicode char U+02B7 (decimal 695)
+   defining Unicode char U+02E3 (decimal 739)
+   defining Unicode char U+02B8 (decimal 696)
+   defining Unicode char U+1DBB (decimal 7611)
+   defining Unicode char U+1D2C (decimal 7468)
+   defining Unicode char U+1D2E (decimal 7470)
+   defining Unicode char U+1D30 (decimal 7472)
+   defining Unicode char U+1D31 (decimal 7473)
+   defining Unicode char U+1D33 (decimal 7475)
+   defining Unicode char U+1D34 (decimal 7476)
+   defining Unicode char U+1D35 (decimal 7477)
+   defining Unicode char U+1D36 (decimal 7478)
+   defining Unicode char U+1D37 (decimal 7479)
+   defining Unicode char U+1D38 (decimal 7480)
+   defining Unicode char U+1D39 (decimal 7481)
+   defining Unicode char U+1D3A (decimal 7482)
+   defining Unicode char U+1D3C (decimal 7484)
+   defining Unicode char U+1D3E (decimal 7486)
+   defining Unicode char U+1D3F (decimal 7487)
+   defining Unicode char U+1D40 (decimal 7488)
+   defining Unicode char U+1D41 (decimal 7489)
+   defining Unicode char U+1D42 (decimal 7490)
+   defining Unicode char U+2200 (decimal 8704)
+   defining Unicode char U+2203 (decimal 8707)
+   defining Unicode char U+2204 (decimal 8708)
+   defining Unicode char U+2208 (decimal 8712)
+   defining Unicode char U+2209 (decimal 8713)
+   defining Unicode char U+220B (decimal 8715)
+   defining Unicode char U+220B (decimal 8715)
+   defining Unicode char U+221A (decimal 8730)
+   defining Unicode char U+221B (decimal 8731)
+   defining Unicode char U+221C (decimal 8732)
+   defining Unicode char U+2264 (decimal 8804)
+   defining Unicode char U+2265 (decimal 8805)
+   defining Unicode char U+226A (decimal 8810)
+   defining Unicode char U+226B (decimal 8811)
+   defining Unicode char U+2A7D (decimal 10877)
+   defining Unicode char U+2A7E (decimal 10878)
+   defining Unicode char U+2248 (decimal 8776)
+   defining Unicode char U+2260 (decimal 8800)
+   defining Unicode char U+2261 (decimal 8801)
+   defining Unicode char U+2262 (decimal 8802)
+   defining Unicode char U+22A5 (decimal 8869)
+   defining Unicode char U+2282 (decimal 8834)
+   defining Unicode char U+2283 (decimal 8835)
+   defining Unicode char U+2229 (decimal 8745)
+   defining Unicode char U+222A (decimal 8746)
+   defining Unicode char U+2227 (decimal 8743)
+   defining Unicode char U+2228 (decimal 8744)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+2212 (decimal 8722)
+   defining Unicode char U+221A (decimal 8730)
+   defining Unicode char U+2295 (decimal 8853)
+   defining Unicode char U+2297 (decimal 8855)
+   defining Unicode char U+229B (decimal 8859)
+   defining Unicode char U+2A01 (decimal 10753)
+   defining Unicode char U+2A02 (decimal 10754)
+   defining Unicode char U+2218 (decimal 8728)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+2213 (decimal 8723)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+21A6 (decimal 8614)
+   defining Unicode char U+21D0 (decimal 8656)
+   defining Unicode char U+21D2 (decimal 8658)
+   defining Unicode char U+21D4 (decimal 8660)
+   defining Unicode char U+22A8 (decimal 8872)
+   defining Unicode char U+22AD (decimal 8877)
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/generic/pdftex\glyphtounicode.tex) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count309
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\@linkdim=\dimen165
+\Hy@linkcounter=\count310
+\Hy@pagecounter=\count311
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count312
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4040.
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing ON on input line 4175.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4424.
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\backref.sty
+Package: backref 2023-11-26 v1.44 Bibliographical back referencing
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+))
+\c@Hy@tempcnt=\count313
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen166
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+)
+\Fld@menulength=\count314
+\Field@Width=\dimen167
+\Fld@charsize=\dimen168
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing ON on input line 6055.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count315
+\c@Item=\count316
+\c@Hfootnote=\count317
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2024-11-05 v7.01l Hyperref driver for pdfTeX
+\Fld@listcount=\count318
+\c@bookmark@seq@number=\count319
+\Hy@SectionHShift=\skip85
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen169
+\Gin@req@width=\dimen170
+) (latex4ei/latex4ei_colors.sty
+Package: latex4ei/latex4ei_colors 2016/03/30 Colors for LaTeX4EI
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+))
+Package hyperref Info: Option `colorlinks' set `true' on input line 212.
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/accents\accents.sty
+Package: accents 2006/05/12 v1.4 Math Accent Tools
+\cc@skew=\dimen171
+\cc@wd=\dimen172
+\cc@code=\count320
+\cc@group=\count321
+\cc@skewchar=\count322
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen173
+\captionmargin=\dimen174
+\caption@leftmargin=\dimen175
+\caption@rightmargin=\dimen176
+\caption@width=\dimen177
+\caption@indent=\dimen178
+\caption@parindent=\dimen179
+\caption@hangindent=\dimen180
+Package caption Info: KOMA-Script document class detected.
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption-koma.sto
+File: caption-koma.sto 2023/09/08 v2.0e Adaption of the caption package to the KOMA-Script document classes (AR)
+))
+\c@caption@flags=\count323
+\c@continuedfloat=\count324
+Package caption Info: hyperref package is loaded.
+Package caption Info: KOMA-Script scrextend package detected.
+\caption@addmargin@hsize=\dimen181
+\caption@addmargin@linewidth=\dimen182
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count325
+\lst@gtempboxa=\box67
+\lst@token=\toks26
+\lst@length=\count326
+\lst@currlwidth=\dimen183
+\lst@column=\count327
+\lst@pos=\count328
+\lst@lostspace=\dimen184
+\lst@width=\dimen185
+\lst@newlines=\count329
+\lst@lineno=\count330
+\lst@maxwidth=\dimen186
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count331
+\lst@skipnumbers=\count332
+\lst@framebox=\box68
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2024/09/23 1.10c listings configuration
+))
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
+) (latex4ei/latex4ei_boxes.sty
+
+LaTeX Warning: You have requested package `latex4ei/latex4ei_boxes',
+               but the package provides `latex4ei_boxes'.
+
+Package: latex4ei_boxes 2015/02/06 Boxes for LaTeX4EI
+(C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\mdframed.sty
+Package: mdframed 2013/07/01 1.9b: mdframed
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-abspage.sty
+Package: zref-abspage 2023-09-14 v2.35 Module abspage for zref (HO)
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-base.sty
+Package: zref-base 2023-09-14 v2.35 Module base for zref (HO)
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
+)
+\c@abspage=\count333
+Package zref Info: New property: abspage on input line 67.
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/needspace\needspace.sty
+Package: needspace 2025/03/13 v1.3e reserve vertical space
+)
+\mdf@templength=\skip86
+\c@mdf@globalstyle@cnt=\count334
+\mdf@skipabove@length=\skip87
+\mdf@skipbelow@length=\skip88
+\mdf@leftmargin@length=\skip89
+\mdf@rightmargin@length=\skip90
+\mdf@innerleftmargin@length=\skip91
+\mdf@innerrightmargin@length=\skip92
+\mdf@innertopmargin@length=\skip93
+\mdf@innerbottommargin@length=\skip94
+\mdf@splittopskip@length=\skip95
+\mdf@splitbottomskip@length=\skip96
+\mdf@outermargin@length=\skip97
+\mdf@innermargin@length=\skip98
+\mdf@linewidth@length=\skip99
+\mdf@innerlinewidth@length=\skip100
+\mdf@middlelinewidth@length=\skip101
+\mdf@outerlinewidth@length=\skip102
+\mdf@roundcorner@length=\skip103
+\mdf@footenotedistance@length=\skip104
+\mdf@userdefinedwidth@length=\skip105
+\mdf@needspace@length=\skip106
+\mdf@frametitleaboveskip@length=\skip107
+\mdf@frametitlebelowskip@length=\skip108
+\mdf@frametitlerulewidth@length=\skip109
+\mdf@frametitleleftmargin@length=\skip110
+\mdf@frametitlerightmargin@length=\skip111
+\mdf@shadowsize@length=\skip112
+\mdf@extratopheight@length=\skip113
+\mdf@subtitleabovelinewidth@length=\skip114
+\mdf@subtitlebelowlinewidth@length=\skip115
+\mdf@subtitleaboveskip@length=\skip116
+\mdf@subtitlebelowskip@length=\skip117
+\mdf@subtitleinneraboveskip@length=\skip118
+\mdf@subtitleinnerbelowskip@length=\skip119
+\mdf@subsubtitleabovelinewidth@length=\skip120
+\mdf@subsubtitlebelowlinewidth@length=\skip121
+\mdf@subsubtitleaboveskip@length=\skip122
+\mdf@subsubtitlebelowskip@length=\skip123
+\mdf@subsubtitleinneraboveskip@length=\skip124
+\mdf@subsubtitleinnerbelowskip@length=\skip125
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\md-frame-0.mdf
+File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
+)
+\mdf@frametitlebox=\box69
+\mdf@footnotebox=\box70
+\mdf@splitbox@one=\box71
+\mdf@splitbox@two=\box72
+\mdf@splitbox@save=\box73
+\mdfsplitboxwidth=\skip126
+\mdfsplitboxtotalwidth=\skip127
+\mdfsplitboxheight=\skip128
+\mdfsplitboxdepth=\skip129
+\mdfsplitboxtotalheight=\skip130
+\mdfframetitleboxwidth=\skip131
+\mdfframetitleboxtotalwidth=\skip132
+\mdfframetitleboxheight=\skip133
+\mdfframetitleboxdepth=\skip134
+\mdfframetitleboxtotalheight=\skip135
+\mdffootnoteboxwidth=\skip136
+\mdffootnoteboxtotalwidth=\skip137
+\mdffootnoteboxheight=\skip138
+\mdffootnoteboxdepth=\skip139
+\mdffootnoteboxtotalheight=\skip140
+\mdftotallinewidth=\skip141
+\mdfboundingboxwidth=\skip142
+\mdfboundingboxtotalwidth=\skip143
+\mdfboundingboxheight=\skip144
+\mdfboundingboxdepth=\skip145
+\mdfboundingboxtotalheight=\skip146
+\mdf@freevspace@length=\skip147
+\mdf@horizontalwidthofbox@length=\skip148
+\mdf@verticalmarginwhole@length=\skip149
+\mdf@horizontalspaceofbox=\skip150
+\mdfsubtitleheight=\skip151
+\mdfsubsubtitleheight=\skip152
+\c@mdfcountframes=\count335
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+\mdf@envdepth=\count336
+\c@mdf@env@i=\count337
+\c@mdf@env@ii=\count338
+\c@mdf@zref@counter=\count339
+Package zref Info: New property: mdf@pagevalue on input line 895.
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip153
+\enit@outerparindent=\dimen187
+\enit@toks=\toks27
+\enit@inbox=\box74
+\enit@count@id=\count340
+\enitdp@description=\count341
+)) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count342
+\Gm@cntv=\count343
+\c@Gm@tempcnt=\count344
+\Gm@bindingoffset=\dimen188
+\Gm@wd@mp=\dimen189
+\Gm@odd@mp=\dimen190
+\Gm@even@mp=\dimen191
+\Gm@layoutwidth=\dimen192
+\Gm@layoutheight=\dimen193
+\Gm@layouthoffset=\dimen194
+\Gm@layoutvoffset=\dimen195
+\Gm@dimlist=\toks28
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
+\c@tracingmulticols=\count345
+\mult@box=\box75
+\multicol@leftmargin=\dimen196
+\c@unbalance=\count346
+\c@collectmore=\count347
+\doublecol@number=\count348
+\multicoltolerance=\count349
+\multicolpretolerance=\count350
+\full@width=\dimen197
+\page@free=\dimen198
+\premulticols=\dimen199
+\postmulticols=\dimen256
+\multicolsep=\skip154
+\multicolbaselineskip=\skip155
+\partial@page=\box76
+\last@line=\box77
+\mc@boxedresult=\box78
+\maxbalancingoverflow=\dimen257
+\mult@rightbox=\box79
+\mult@grightbox=\box80
+\mult@firstbox=\box81
+\mult@gfirstbox=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\c@minrows=\count351
+\c@columnbadness=\count352
+\c@finalcolumnbadness=\count353
+\last@try=\dimen258
+\multicolovershoot=\dimen259
+\multicolundershoot=\dimen260
+\mult@nat@firstbox=\box119
+\colbreak@box=\box120
+\mc@col@check@num=\count354
+)
+
+Class scrartcl Warning: Usage of package `titlesec' together
+(scrartcl)              with a KOMA-Script class is not recommended.
+(scrartcl)              I'd suggest to use KOMA-Script features
+(scrartcl)              like \setkomafont, \RedeclareSectionCommand, \sectionlinesformat
+(scrartcl)              and several others to re-configure section
+(scrartcl)              headings.
+(scrartcl)              Nevertheless, using requested
+(scrartcl)              package `titlesec' on input line 143.
+
+(C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box121
+\beforetitleunit=\skip156
+\aftertitleunit=\skip157
+\ttl@plus=\dimen261
+\ttl@minus=\dimen262
+\ttl@toksa=\toks29
+\titlewidth=\dimen263
+\titlewidthlast=\dimen264
+\titlewidthfirst=\dimen265
+
+
+Package titlesec Warning: Non standard sectioning command \section
+(titlesec)                detected. Using default spacing and no format.
+
+
+Package titlesec Warning: Non standard sectioning command \subsection
+(titlesec)                detected. Using default spacing and no format.
+
+
+Package titlesec Warning: Non standard sectioning command \subsubsection
+(titlesec)                detected. Using default spacing and no format.
+
+
+Package titlesec Warning: Non standard sectioning command \paragraph
+(titlesec)                detected. Using default spacing and no format.
+
+
+Package titlesec Warning: Non standard sectioning command \subparagraph
+(titlesec)                detected. Using default spacing and no format.
+
+)
+
+Class scrartcl Warning: Usage of package `parskip' together
+(scrartcl)              with a KOMA-Script class is not recommended.
+(scrartcl)              I'd suggest to use option
+(scrartcl)              `parskip' with one of it's several values.
+(scrartcl)              Nevertheless, using requested
+(scrartcl)              package `parskip' on input line 166.
+
+(C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/parskip\parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+
+Couldn't patch \@startsection
+))
+
+LaTeX Warning: Unused global option(s):
+    [landscape].
+
+(RTFS.aux)
+\openout1 = `RTFS.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-german.trsl
+File: translations-basic-dictionary-german.trsl (german translation file `translations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 7.
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 7.
+
+Package chemgreek Info: Activating mapping `default' on line 7.
+
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count355
+\scratchdimen=\dimen266
+\scratchbox=\box122
+\nofMPsegments=\count356
+\nofMParguments=\count357
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count358
+\MPscratchDim=\dimen267
+\MPnumerator=\count359
+\makeMPintoPDFobject=\count360
+\everyMPtoPDFconversion=\toks31
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package hyperref Info: Link coloring ON on input line 7.
+\@outlinefile=\write3
+\openout3 = `RTFS.out'.
+
+Class scrartcl Info: loading recommended package `bookmark'.
+(scrartcl)           Using `bookmark' together with `hyperref' is recommended,
+(scrartcl)           because of handling of possible bookmark level gaps.
+(scrartcl)           You can avoid loading `bookmark' with KOMA-Script option
+(scrartcl)           `bookmarkpackage=false' before \begin{document} and
+(scrartcl)           you can avoid this message adding:
+(scrartcl)             \usepackage{bookmark}
+(scrartcl)           before \begin{document} on input line 7.
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
+Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
+File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
+\BKM@id=\count361
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count362
+Package tocbasic Info: setting babel extension for `lol' on input line 7.
+\scr@dte@lstlisting@maxnumwidth=\skip158
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: landscape includefoot 
+* h-part:(L,W,R)=(17.07164pt, 810.90356pt, 17.07164pt)
+* v-part:(T,H,B)=(17.07164pt, 566.20987pt, 14.22636pt)
+* \paperwidth=845.04684pt
+* \paperheight=597.50787pt
+* \textwidth=810.90356pt
+* \textheight=553.74338pt
+* \oddsidemargin=-55.19835pt
+* \evensidemargin=-55.19835pt
+* \topmargin=-74.99829pt
+* \headheight=8.99997pt
+* \headsep=10.79997pt
+* \topskip=6.0pt
+* \footskip=12.46649pt
+* \marginparwidth=119.50159pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=5.39996pt plus 1.99979pt minus 3.60004pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Package siunitx Warning: Option "math-rm" has been removed in this release.
+
+
+Package siunitx Warning: Option "text-rm" has been removed in this release.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+
+Overfull \hbox (101.67169pt too wide) detected at line 60
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
+[]\OT1/cmss/m/n/6 F[]uhrungs[]ubertragungsfunktion $\OML/cmm/m/it/6 G[]\OT1/cmr/m/n/6 (\OML/cmm/m/it/6 s\OT1/cmr/m/n/6 )$ \OT1/cmss/m/n/6 und St[]orgr[]o^^Yen-
+ []
+
+c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:169: Missing $ inserted.
+<inserted text> 
+                $
+l.169 ...rzeichen, aber nur für Systeme mit n ≤
+                                                   2.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 170.
+
+c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:170: Please use \mathaccent for accents in math mode.
+\lower@umlaut ...imen 5\font \dimen@ \fi }\accent 
+                                                  \csname \f@encoding dqpos\...
+l.170         Fü
+                 r Systeme mit n > 2 ist die Vorzeichenbedingung nicht ausre...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:170: Missing { inserted.
+<to be read again> 
+                   \fontdimen 
+l.170         Fü
+                 r Systeme mit n > 2 ist die Vorzeichenbedingung nicht ausre...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 170.
+
+c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:170: Please use \mathaccent for accents in math mode.
+\lower@umlaut ...imen 5\font \dimen@ \fi }\accent 
+                                                  \csname \f@encoding dqpos\...
+l.170 ...nbedingung nicht ausreichend, d.h. es mü
+                                                  ssen
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:170: Missing { inserted.
+<to be read again> 
+                   \fontdimen 
+l.170 ...nbedingung nicht ausreichend, d.h. es mü
+                                                  ssen
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 171.
+
+c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:171: Please use \mathaccent for accents in math mode.
+\lower@umlaut ...imen 5\font \dimen@ \fi }\accent 
+                                                  \csname \f@encoding dqpos\...
+l.171         zusä
+                   tzliche Beiwertebedingungen oder das Hurwitz-Kriterium er...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:171: Missing { inserted.
+<to be read again> 
+                   \fontdimen 
+l.171         zusä
+                   tzliche Beiwertebedingungen oder das Hurwitz-Kriterium er...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 171.
+
+c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:171: Please use \mathaccent for accents in math mode.
+\lower@umlaut ...imen 5\font \dimen@ \fi }\accent 
+                                                  \csname \f@encoding dqpos\...
+l.171 ...ingungen oder das Hurwitz-Kriterium erfü
+                                                  llt sein.
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:171: Missing { inserted.
+<to be read again> 
+                   \fontdimen 
+l.171 ...ingungen oder das Hurwitz-Kriterium erfü
+                                                  llt sein.
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:172: Missing $ inserted.
+<inserted text> 
+                $
+l.172 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:172: Missing } inserted.
+<inserted text> 
+                }
+l.172 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:172: Missing } inserted.
+<inserted text> 
+                }
+l.172 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:172: Missing } inserted.
+<inserted text> 
+                }
+l.172 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:172: Missing } inserted.
+<inserted text> 
+                }
+l.172 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (340.93912pt too wide) in paragraph at lines 166--172
+\OT1/cmr/m/n/6 2\OML/cmm/m/it/6 :F[]$ 
+ []
+
+
+Package caption Warning: Unused \captionsetup[table] on input line 299.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: Unused \captionsetup[figure] on input line 318.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: Unused \captionsetup[lstlisting] on input line 341.
+See the caption package documentation for explanation.
+
+
+c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:181: LaTeX Error: \begin{mdframed} on input line 165 ended by \end{multicols}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.181 \end{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:181: LaTeX Error: \begin{mdframed} on input line 165 ended by \end{multicols}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.181 \end{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:181: Missing } inserted.
+<inserted text> 
+                }
+l.181 \end{document}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:181: LaTeX Error: \begin{mdframed} on input line 165 ended by \end{multicols*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.181 \end{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:181: LaTeX Error: \begin{sectionbox} on input line 165 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.181 \end{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1{C:/Users/johan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (RTFS.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+
+
+Package rerunfilecheck Warning: File `RTFS.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `RTFS.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+ )
+(\end occurred inside a group at level 4)
+
+### semi simple group (level 4) entered at line 165 (\begingroup)
+### semi simple group (level 3) entered at line 7 (\begingroup)
+### semi simple group (level 2) entered at line 7 (\begingroup)
+### semi simple group (level 1) entered at line 7 (\begingroup)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 25527 strings out of 473523
+ 513241 string characters out of 5714630
+ 1097520 words of memory out of 5000000
+ 48407 multiletter control sequences out of 15000+600000
+ 563305 words of font info for 54 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 122i,10n,121p,10967b,1598s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\johan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss0600.pk><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
+Output written on RTFS.pdf (1 page, 114398 bytes).
+PDF statistics:
+ 148 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
+ 177 words of extra memory for PDF output out of 10000 (max. 10000000)
+

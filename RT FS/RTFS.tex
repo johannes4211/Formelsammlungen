@@ -1,0 +1,181 @@
+\documentclass[german]{latex4ei/latex4ei_sheet}
+
+
+
+\title{Regelungstechnik}
+
+\begin{document}
+
+\section{Mathematische Grundlagen}
+\begin{sectionbox}
+    \subsection{komplexe Zahlen}
+
+    \subsection{Dezibelrechnung}
+
+    \subsection{Additionstheoreme}
+
+
+    \subsection{Partialbruchzerlegung}
+
+
+    \subsection{MNF / pq-Formel}
+
+
+    \subsection{Polynomdivision}
+\end{sectionbox}
+
+\section{Physikalische Grundlagen}
+\begin{sectionbox}
+    Newtonsche Gesetze:
+    \begin{itemize}
+        \item 1. Newtonsches Gesetz: $F = m \cdot a$ \\
+        \item 2. Newtonsches Gesetz: $F = m \cdot \frac{dv}{dt}$ \\
+        \item 3. Newtonsches Gesetz: $F = -F_{Gegenseite}$ \\
+    \end{itemize}
+\end{sectionbox}
+
+
+\section{Formelzeichen}
+
+Cosinusdarstellung:
+    $a \cos(x) + b \sin(x) = R \cos(x - \phi)$
+
+\section{Differentialgleichungen}
+  
+
+
+Auftereten von Nullstellen bei Polynom mit konstanten Koeffizienten:
+\begin{itemize}
+    \item reelle Nullstellen: $s_1, s_2, \ldots, s_n$ \\
+    $P(s) = (s - s_1)(s - s_2) \ldots (s - s_n)$
+    \item komplexe Nullstellen: $s_{n+1} = a + jb$ \\
+    $P(s) = (s - s_{n+1})(s - s_{n+2}) \ldots (s - s_{n+m})$
+\end{itemize}
+
+
+
+\begin{sectionbox}{Allgemeine Form}
+    \begin{align*}
+        \frac{d^n y(t)}{dt^n} + a_{n-1} \frac{d^{n-1} y(t)}{dt^{n-1}} + \ldots + a_1 \frac{dy(t)}{dt} + a_0 y(t) = b_0 u(t) + b_1 \frac{du(t)}{dt} + \ldots + b_m \frac{d^m u(t)}{dt^m}
+    \end{align*}
+    \begin{itemize}
+        \item $n$ = Ordnung der DGL
+        \item $a_i$ = Koeffizienten der DGL
+        \item $b_i$ = Koeffizienten der Eingangsgröße
+        \item $y(t)$ = Ausgangsgröße
+        \item $u(t)$ = Eingangsgröße
+
+\end{itemize}
+
+Meistens sind inhhomogene DGLs höherer Ordnung gegeben.
+Diese können gelöst werden durch:
+\begin{itemize}
+    \item Variation der Konstanten
+    \item Ansatz der rechten Seite
+    \item Laplace-Transformation
+\end{itemize}
+\end{sectionbox}
+
+
+\section{Systemeigenschaften}
+\begin{sectionbox}
+    \subsection{Linearität}
+    \vspace{1mm}
+    \begin{itemize}
+        \item Superposition: $S\{u_1(t) + u_2(t)\} = S\{u_1(t)\} + S\{u_2(t)\}$
+        \item Homogenität: $S\{k \cdot u(t)\} = k \cdot S\{u(t)\}$
+    \end{itemize}
+    \subsection{Zeitinvarianz}
+    \vspace{1mm}
+    \begin{itemize}
+        \item Ein System S ist zeitinvariant, wenn für jede beliebige Zeitverschiebung $τ$ gilt:
+        $y(t −τ) = S\{u(t −τ)\}$
+    \end{itemize}
+    \subsection{Kausalität}
+    \vspace{1mm}
+    \begin{itemize}
+        \item Ein System $S$ ist kausal, wenn der Wert des Eingangs $u(\bar{t})$ zum Zeitpunkt $\bar{t}$ keinen
+        Einfluß auf den Ausgang $y(t)$ für $t < \bar{t}$ hat. \\
+        Bzw, wenn im Eingang höhere Ableitungen als im Ausgang vorkommen.
+    \end{itemize}
+
+    \subsection{Stabilität}
+    \vspace{1mm}
+    \begin{itemize}
+        \item asymptotisch stabil: alle Wurzeln der charakteristischen Gleichung haben negative Realteile
+        \item stabil: alle Wurzeln der charakteristischen Gleichung haben Realteile $\leq 0$
+        \item instabil: mindestens eine Wurzel der charakteristischen Gleichung hat einen positiven Realteil
+    \end{itemize}
+    
+\end{sectionbox}
+
+\section{Güteanforderungen}
+\begin{sectionbox}
+    \subsection{Stabilität}
+    \vspace{1mm}
+    \begin{itemize}
+        \item asymptotisch stabil: alle Wurzeln der charakteristischen Gleichung haben negative Realteile
+        \item stabil: alle Wurzeln der charakteristischen Gleichung haben Realteile $\leq 0$
+        \item instabil: mindestens eine Wurzel der charakteristischen Gleichung hat einen positiven Realteil
+    \end{itemize}
+    \subsection{Stationäre Genauigkeit}
+    \vspace{1mm}
+    \begin{itemize}
+        \item $e_{ss} = \lim_{t \to \infty} e(t)$
+        \item $e_{ss} = 0$ für alle stationären Eingangsgrößen
+    \end{itemize}
+    \subsection{Dynamisches Verhalten}
+    \vspace{1mm}
+    \begin{itemize}
+        \item Überschwingen: $e_{max} = \max\limits_{t \geq 0} e(t)$
+        \item Einschwingzeit: $t_e = t_{max} - t_{ss}$
+        \item Anstiegszeit: $t_a = t_{ss} - t_0$
+        \item Regelzeit: $t_r = t_{ss} - t_{min}$
+    \end{itemize}
+    \subsection{Robustheit}
+    \vspace{1mm}
+    Forderungen 1 - 3 werden trotz Unsicherheiten erfüllt!
+    \begin{itemize}
+        \item Unsicherheiten bewegen sich innerhalb vorgegebener Grenzen
+        \item Unsicherheiten → Unterschiede zwischen Modell u. Wirklichkeit
+        \item Ursache von Unsicherheiten:
+        \begin{itemize}
+            \item Modell beschreibt Wirklichkeit nur annähernd und vereinfacht
+            \item Regelstrecke verändert sich (Toleranzen, Alterung, Verschleiß, ...)
+        \end{itemize}
+    \end{itemize}
+    
+\end{sectionbox}
+    \begin{sectionbox}
+        \subsection{Modell des Standardregelkreises}
+        \vspace{1mm}
+        Führungsübertragungsfunktion $G_{W}(s)$ und Störgrößen- übertragungsfunktion $G_{Z}(s)$ müssen zusammen 1 ergeben:
+        \begin{align*}
+            G_{W}(s) + G_{Z}(s) = 1
+        \end{align*}
+
+
+        \subsection{Stationäres Verhalten}
+        \vspace{1mm}
+        Bleibende Regelabweichung: $e_{ss} = \lim_{t \to \infty} e(t)$ \\
+        Lässt sich im Nenner von $G(s)$ mindestens ein $s$ ausklammern, ist die Bleibende Regelabweichung $0$.
+    \end{sectionbox}
+
+
+    \begin{sectionbox}
+        \textbf{Stabilitäts-/Beiwertbedingungen:}\\
+        Vorzeichenbedingung für Ordnung n > 2 (nur notwendig):
+        System ist asymptotisch stabil ⇒ alle Koeff. ai , i = 0,1, . . . ,n besitzen gleiches
+        Vorzeichen, aber nur für Systeme mit n ≤ 2.
+        Für Systeme mit n > 2 ist die Vorzeichenbedingung nicht ausreichend, d.h. es müssen
+        zusätzliche Beiwertebedingungen oder das Hurwitz-Kriterium erfüllt sein.
+        
+        Bedingung für Systeme mit n = 3:
+        System ist asymptotisch stabil ⇒ VZB ist erfüllt und an > 0 und a0a3−a1a2 < 0
+
+        Bedingung für Systeme mit n = 4:
+            System ist asymptotisch stabil ⇒ VZB ist erfüllt und an > 0 und
+        a4a2
+        1+a0a2
+        3−a1a2a3 < 0
+\end{document}
