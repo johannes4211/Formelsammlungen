@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.27)  15 MAY 2025 09:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.27)  24 MAY 2025 18:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex"
-(c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex
+**"c:/Users/johan/Desktop/Schule/Formelsammlungen/RT FS/RTFS.tex"
+(c:/Users/johan/Desktop/Schule/Formelsammlungen/RT FS/RTFS.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (latex4ei/latex4ei_sheet.cls
@@ -1127,6 +1127,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring ON on input line 7.
+ (RTFS.out) (RTFS.out)
 \@outlinefile=\write3
 \openout3 = `RTFS.out'.
 
@@ -1192,177 +1193,43 @@ Package siunitx Warning: Option "math-rm" has been removed in this release.
 Package siunitx Warning: Option "text-rm" has been removed in this release.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
 
-Overfull \hbox (101.67169pt too wide) detected at line 60
-[]
+Underfull \hbox (badness 6001) in paragraph at lines 84--91
+\OT1/cmss/m/n/6 Die L[]osungen der cha-rak-te-ris-ti-schen Glei-chung sind die Ei-gen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
+Underfull \hbox (badness 10000) in paragraph at lines 84--91
+\OT1/cmss/m/n/6 wer-te des Sys-tems. Die Ei-gen-wer-te sind die Null-stel-len des
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
 []\OT1/cmss/m/n/6 F[]uhrungs[]ubertragungsfunktion $\OML/cmm/m/it/6 G[]\OT1/cmr/m/n/6 (\OML/cmm/m/it/6 s\OT1/cmr/m/n/6 )$ \OT1/cmss/m/n/6 und St[]orgr[]o^^Yen-
  []
 
-c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:169: Missing $ inserted.
-<inserted text> 
-                $
-l.169 ...rzeichen, aber nur für Systeme mit n ≤
-                                                   2.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
-LaTeX Warning: Command \" invalid in math mode on input line 170.
-
-c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:170: Please use \mathaccent for accents in math mode.
-\lower@umlaut ...imen 5\font \dimen@ \fi }\accent 
-                                                  \csname \f@encoding dqpos\...
-l.170         Fü
-                 r Systeme mit n > 2 ist die Vorzeichenbedingung nicht ausre...
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:170: Missing { inserted.
-<to be read again> 
-                   \fontdimen 
-l.170         Fü
-                 r Systeme mit n > 2 ist die Vorzeichenbedingung nicht ausre...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 170.
-
-c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:170: Please use \mathaccent for accents in math mode.
-\lower@umlaut ...imen 5\font \dimen@ \fi }\accent 
-                                                  \csname \f@encoding dqpos\...
-l.170 ...nbedingung nicht ausreichend, d.h. es mü
-                                                  ssen
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:170: Missing { inserted.
-<to be read again> 
-                   \fontdimen 
-l.170 ...nbedingung nicht ausreichend, d.h. es mü
-                                                  ssen
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 171.
-
-c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:171: Please use \mathaccent for accents in math mode.
-\lower@umlaut ...imen 5\font \dimen@ \fi }\accent 
-                                                  \csname \f@encoding dqpos\...
-l.171         zusä
-                   tzliche Beiwertebedingungen oder das Hurwitz-Kriterium er...
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:171: Missing { inserted.
-<to be read again> 
-                   \fontdimen 
-l.171         zusä
-                   tzliche Beiwertebedingungen oder das Hurwitz-Kriterium er...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 171.
-
-c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:171: Please use \mathaccent for accents in math mode.
-\lower@umlaut ...imen 5\font \dimen@ \fi }\accent 
-                                                  \csname \f@encoding dqpos\...
-l.171 ...ingungen oder das Hurwitz-Kriterium erfü
-                                                  llt sein.
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:171: Missing { inserted.
-<to be read again> 
-                   \fontdimen 
-l.171 ...ingungen oder das Hurwitz-Kriterium erfü
-                                                  llt sein.
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:172: Missing $ inserted.
-<inserted text> 
-                $
-l.172 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:172: Missing } inserted.
-<inserted text> 
-                }
-l.172 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:172: Missing } inserted.
-<inserted text> 
-                }
-l.172 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:172: Missing } inserted.
-<inserted text> 
-                }
-l.172 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:172: Missing } inserted.
-<inserted text> 
-                }
-l.172 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (340.93912pt too wide) in paragraph at lines 166--172
-\OT1/cmr/m/n/6 2\OML/cmm/m/it/6 :F[]$ 
  []
 
 
@@ -1377,103 +1244,28 @@ See the caption package documentation for explanation.
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 341.
 See the caption package documentation for explanation.
 
+[1
 
-c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:181: LaTeX Error: \begin{mdframed} on input line 165 ended by \end{multicols}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.181 \end{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:181: LaTeX Error: \begin{mdframed} on input line 165 ended by \end{multicols}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.181 \end{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:181: Missing } inserted.
-<inserted text> 
-                }
-l.181 \end{document}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:181: LaTeX Error: \begin{mdframed} on input line 165 ended by \end{multicols*}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.181 \end{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-c:/Users/johan/Desktop/Schule/4. Semester/Regelungstechnik/RT FS/RTFS.tex:181: LaTeX Error: \begin{sectionbox} on input line 165 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.181 \end{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[1{C:/Users/johan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (RTFS.aux)
+{C:/Users/johan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (RTFS.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-Package rerunfilecheck Warning: File `RTFS.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `RTFS.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
- )
-(\end occurred inside a group at level 4)
-
-### semi simple group (level 4) entered at line 165 (\begingroup)
-### semi simple group (level 3) entered at line 7 (\begingroup)
-### semi simple group (level 2) entered at line 7 (\begingroup)
-### semi simple group (level 1) entered at line 7 (\begingroup)
-### bottom level 
+Package rerunfilecheck Info: File `RTFS.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
 Here is how much of TeX's memory you used:
- 25527 strings out of 473523
- 513241 string characters out of 5714630
- 1097520 words of memory out of 5000000
- 48407 multiletter control sequences out of 15000+600000
- 563305 words of font info for 54 fonts, out of 8000000 for 9000
+ 25554 strings out of 473523
+ 513617 string characters out of 5714630
+ 1136520 words of memory out of 5000000
+ 48423 multiletter control sequences out of 15000+600000
+ 563605 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 122i,10n,121p,10967b,1598s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\johan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss0600.pk><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-Output written on RTFS.pdf (1 page, 114398 bytes).
+ 122i,10n,121p,10955b,1598s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\johan\AppData\Local\MiKTeX\fonts/pk/ljfour/public/esint/dpi360\esint10.pk> <C:\Users\johan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss0600.pk><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
+Output written on RTFS.pdf (1 page, 138633 bytes).
 PDF statistics:
- 148 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
- 177 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 172 PDF objects out of 1000 (max. 8388607)
+ 30 named destinations out of 1000 (max. 500000)
+ 193 words of extra memory for PDF output out of 10000 (max. 10000000)
 

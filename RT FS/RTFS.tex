@@ -22,6 +22,13 @@
 
 
     \subsection{Polynomdivision}
+
+    \subsection{Nullstellen}
+    \begin{itemize}
+        \item Ein Polynom der Ordnung $n$ hat $n$ Nullstellen.
+        \item Sind die Koeffizienten reell, so sind die Nullstellen entweder reell oder komplex konjugiert.
+    \end{itemize}
+    
 \end{sectionbox}
 
 \section{Physikalische Grundlagen}
@@ -56,10 +63,10 @@ Auftereten von Nullstellen bei Polynom mit konstanten Koeffizienten:
 
 \begin{sectionbox}{Allgemeine Form}
     \begin{align*}
-        \frac{d^n y(t)}{dt^n} + a_{n-1} \frac{d^{n-1} y(t)}{dt^{n-1}} + \ldots + a_1 \frac{dy(t)}{dt} + a_0 y(t) = b_0 u(t) + b_1 \frac{du(t)}{dt} + \ldots + b_m \frac{d^m u(t)}{dt^m}
+        \frac{d^n y(t)}{dt^n} + a_{n-1} \frac{d^{n-1} y(t)}{dt^{n-1}} + \ldots + a_1 \frac{dy(t)}{dt} + a_0 y(t) \\= b_0 u(t) + b_1 \frac{du(t)}{dt} + \ldots + b_q \frac{d^q u(t)}{dt^q}
     \end{align*}
     \begin{itemize}
-        \item $n$ = Ordnung der DGL
+        \item $n$ = Ordnung der DGL $(q \leq n)$
         \item $a_i$ = Koeffizienten der DGL
         \item $b_i$ = Koeffizienten der Eingangsgröße
         \item $y(t)$ = Ausgangsgröße
@@ -67,6 +74,17 @@ Auftereten von Nullstellen bei Polynom mit konstanten Koeffizienten:
 
 \end{itemize}
 
+Die Homogene Lösung ist die Lösung der DGL ohne Eingangsgröße:
+\begin{align*}
+    \frac{d^n y(t)}{dt^n} + a_{n-1} \frac{d^{n-1} y(t)}{dt^{n-1}} + \ldots + a_1 \frac{dy(t)}{dt} + a_0 y(t) = 0
+\end{align*}
+Durch Einsetzen der Lösung $y(t) = e^{\lambda t}$ erhält man die charakteristische Gleichung:
+\begin{align*}
+    \lambda^n + a_{n-1} \lambda^{n-1} + \ldots + a_1 \lambda + a_0 = 0
+\end{align*}
+Die Lösungen der charakteristischen Gleichung sind die Eigenwerte des Systems.
+Die Eigenwerte sind die Nullstellen des Übertragungsfunktionsnenners/Polstellen der Übertragungsfunktion. \\
+\\
 Meistens sind inhhomogene DGLs höherer Ordnung gegeben.
 Diese können gelöst werden durch:
 \begin{itemize}
@@ -99,25 +117,20 @@ Diese können gelöst werden durch:
         Bzw, wenn im Eingang höhere Ableitungen als im Ausgang vorkommen.
     \end{itemize}
 
-    \subsection{Stabilität}
-    \vspace{1mm}
-    \begin{itemize}
-        \item asymptotisch stabil: alle Wurzeln der charakteristischen Gleichung haben negative Realteile
-        \item stabil: alle Wurzeln der charakteristischen Gleichung haben Realteile $\leq 0$
-        \item instabil: mindestens eine Wurzel der charakteristischen Gleichung hat einen positiven Realteil
-    \end{itemize}
+
     
 \end{sectionbox}
 
 \section{Güteanforderungen}
 \begin{sectionbox}
-    \subsection{Stabilität}
+        \subsection{Stabilität}
     \vspace{1mm}
     \begin{itemize}
-        \item asymptotisch stabil: alle Wurzeln der charakteristischen Gleichung haben negative Realteile
-        \item stabil: alle Wurzeln der charakteristischen Gleichung haben Realteile $\leq 0$
-        \item instabil: mindestens eine Wurzel der charakteristischen Gleichung hat einen positiven Realteil
+        \item asymptotisch stabil: alle Lösungen der charakteristischen Gleichung haben negative Realteile
+        \item stabil: alle Lösungen der charakteristischen Gleichung haben Realteile $\leq 0$
+        \item instabil: mindestens eine Lösung der charakteristischen Gleichung hat einen positiven Realteil
     \end{itemize}
+
     \subsection{Stationäre Genauigkeit}
     \vspace{1mm}
     \begin{itemize}
@@ -163,19 +176,104 @@ Diese können gelöst werden durch:
 
 
     \begin{sectionbox}
-        \textbf{Stabilitäts-/Beiwertbedingungen:}\\
-        Vorzeichenbedingung für Ordnung n > 2 (nur notwendig):
-        System ist asymptotisch stabil ⇒ alle Koeff. ai , i = 0,1, . . . ,n besitzen gleiches
-        Vorzeichen, aber nur für Systeme mit n ≤ 2.
-        Für Systeme mit n > 2 ist die Vorzeichenbedingung nicht ausreichend, d.h. es müssen
-        zusätzliche Beiwertebedingungen oder das Hurwitz-Kriterium erfüllt sein.
+        \textbf{Stabilitäts-/Beiwertbedingungen:}
+     %   Vorzeichenbedingung für Ordnung $n > 2$ (nur notwendig):
+     %   System ist asymptotisch stabil $⇒$ alle Koeff. ai , i = 0,1, . . . ,n besitzen gleiches
+     %   Vorzeichen, aber nur für Systeme mit $n ≤ 2$.
+     %   Für Systeme mit $n > 2$ ist die Vorzeichenbedingung nicht ausreichend, d.h. es müssen
+     %   zusätzliche Beiwertebedingungen oder das Hurwitz-Kriterium erfüllt sein.
         
-        Bedingung für Systeme mit n = 3:
-        System ist asymptotisch stabil ⇒ VZB ist erfüllt und an > 0 und a0a3−a1a2 < 0
+     %   Bedingung für Systeme mit n = 3:
+     %   System ist asymptotisch stabil ⇒ VZB ist erfüllt und an > 0 und a0a3−a1a2 < 0
 
-        Bedingung für Systeme mit n = 4:
-            System ist asymptotisch stabil ⇒ VZB ist erfüllt und an > 0 und
-        a4a2
-        1+a0a2
-        3−a1a2a3 < 0
+    %    Bedingung für Systeme mit n = 4:
+    %        System ist asymptotisch stabil ⇒ VZB ist erfüllt und an > 0 und
+    %    a4a2
+    %    1+a0a2
+    %    3−a1a2a3 < 0
+
+    \begin{itemize}
+        \item \textbf{Vorzeichenbedingung} (notwendig):
+        System ist asymptotisch stabil $\Rightarrow$ alle Koeffizienten $a_i$, $i = 0,1, \ldots, n$ besitzen gleiches Vorzeichen. Für Systeme mit $n \leq 2$ auch hinreichend.
+        \item \textbf{Beiwertbedingungen} (hinreichend) für Systeme mit $n > 2$: Determinante der $n \times n$ Hurwitz-Matrix muss $|\Delta_n| > 0$ sein. Für $|\Delta_n| = 0$ grenzstabil.
+    \end{itemize}
+
+    \textbf{Hurwitz-Matrix:}\\
+    \[
+        %\Delta_n =
+        \begin{bmatrix}
+        a_{n-1} & a_{n-3} & a_{n-5} & \cdots & 0 & 0 & 0 \\
+        a_n & a_{n-2} & a_{n-4} & \cdots & 0 & 0 & 0 \\
+        0 & a_{n-1} & a_{n-3} & \cdots & 0 & 0 & 0 \\
+        0 & 0 & a_n & a_{n-2} & \cdots & 0 & 0 \\
+        0 & 0 & 0 & a_{n-1} & \cdots & 0 & 0 \\
+        \vdots & \vdots & \vdots & \vdots & \ddots & \vdots & \vdots \\
+        0 & 0 & 0 & 0 & \cdots & a_3 & a_1 \\
+        0 & 0 & 0 & 0 & \cdots & a_4 & a_2 & a_0
+        \end{bmatrix}
+    \]
+
+    \end{sectionbox}
+
+
+
+    \subsection{PID-Regler}
+    \begin{sectionbox}
+        \begin{align*}
+            u(t) = K_R\{e(t)\} = k_p e(t) + k_i \int_0^\tau e(t) d\tau + k_d \frac{de(t)}{dt} \\
+        \end{align*}
+        \begin{itemize}
+            \item $k_p$ = Proportionalbeiwert
+            \item $k_i$ = Integralbeiwert
+            \item $k_d$ = Differentialbeiwert
+        \end{itemize}
+\end{sectionbox}
+
+
+\section{Frequenzgang}
+\begin{sectionbox}
+    \[
+        G(j\omega) = \frac{Y(j\omega)}{U(j\omega)} = \frac{V}{s^{\lambda}} \frac{p(s)}{q(s)}
+    \]
+    \begin{itemize}
+        \item $V$ ... statischer Verstärkungsfaktor
+        \item $λ$ ... ganzzahlig ($+$ zählt Polstellen, $−$ Nullstellen)
+        \item $p(s),q(s)$ sind die Polynome in $s$. $p(0)=q(0) = 1$
+    \end{itemize}
+    \vspace{2mm}
+
+    \textbf{Betragsverlauf:}
+    \begin{center} 
+        $|G(j\omega)| = |V|_{dB} - |(j\omega)^{\lambda}|_{dB} + |p(j\omega)|_{dB} - |q(j\omega)|_{dB}$
+    \end{center}
+
+    \textbf{Phasenverlauf:}
+    \begin{center} 
+        $\arg G(j\omega) = \arg V - \lambda \arg(j\omega) + \arg p(j\omega) - \arg q(j\omega)$
+    \end{center}
+
+    \vspace{3mm}
+    \textbf{4 elementare Bestandteile:}
+    \begin{enumerate}
+    \item \textbf{Verstärkungsfaktor} \(V\) (reell).
+    
+    \item \textbf{Potenzfaktor} \((j\omega)^{\lambda}\) 
+    \[
+    \implies \pm 20\lambda \, \text{dB/Dek} \quad \text{und} \quad \pm 90\lambda^\circ.
+    \]
+
+    \item \textbf{Linearfaktor} \(\left( 1 + \frac{s}{\omega_k} \right)^{\pm 1}\) 
+    \[
+    \implies \text{Knick bei } \omega_k, \, \text{Steigung } \pm 20 \, \text{dB/Dek}.
+    \]
+
+    \item \textbf{Quadratischer Faktor} \(\left( 1 + 2\zeta \frac{s}{\omega_k} + \left(\frac{s}{\omega_k}\right)^2 \right)^{\pm 1}\) 
+    \[
+    \implies \text{Steigung } \pm 40 \, \text{dB/Dek}, \, \text{Phase } 0 \to \pm 180^\circ.
+    \]
+\end{enumerate}
+
+\end{sectionbox}
+
+
 \end{document}
