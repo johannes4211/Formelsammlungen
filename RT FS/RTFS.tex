@@ -1,5 +1,5 @@
 \documentclass[german]{latex4ei/latex4ei_sheet}
-
+\usepackage{trsym}
 
 
 \title{Regelungstechnik}
@@ -116,9 +116,37 @@ Diese können gelöst werden durch:
         Einfluß auf den Ausgang $y(t)$ für $t < \bar{t}$ hat. \\
         Bzw, wenn im Eingang höhere Ableitungen als im Ausgang vorkommen.
     \end{itemize}
-
-
     
+\end{sectionbox}
+
+\subsection{Testsignale}
+\begin{sectionbox}
+\textbf{Impulsfunktion $\delta(t)$ mit Gewichtsfunktion $g(t) = S\{\delta(t)\}$ :}
+$$\delta(t) = \lim_{\varepsilon \to 0} \delta_\varepsilon(t)$$
+$$\delta(t) = \begin{cases}
+1 & \text{für } t = 0 \\
+0 & \text{für } t \neq 0
+\end{cases}$$
+$$ \int_{-\infty}^{\infty}\delta(t) dt = 1 $$
+
+\textbf{Sprungfunktion $\sigma(t)$ mit Übergangsfunktion $h(t) = S\{\sigma(t)\}$:}
+$$ \sigma(t) = \begin{cases}
+0 & \text{für } t < 0 \\
+1 & \text{für } t \geq 0
+\end{cases}$$
+
+$$ \frac{d}{dt}\sigma(t) = \delta(t)$$
+
+$$ \sigma(t) = \int_{-\infty}^{t}\delta(\tau) d\tau$$
+
+\textbf{Rampenfunktion $r(t)$ mit Anstiegsfunktion $a(t) = S\{r(t)\}$:}
+$$ r(t) = \begin{cases}
+0 & \text{für } t < 0 \\
+t & \text{für } t \geq 0
+\end{cases}$$
+$$ \frac{d}{dt}r(t) = \sigma(t)$$
+$$ r(t) = \int_{-\infty}^{t}\sigma(\tau) d\tau = t \cdot \sigma(t)$$
+
 \end{sectionbox}
 
 \section{Güteanforderungen}
@@ -128,7 +156,7 @@ Diese können gelöst werden durch:
     \begin{itemize}
         \item asymptotisch stabil: alle Lösungen der charakteristischen Gleichung haben negative Realteile
         \item stabil: alle Lösungen der charakteristischen Gleichung haben Realteile $\leq 0$
-        \item instabil: mindestens eine Lösung der charakteristischen Gleichung hat einen positiven Realteil
+        \item instabil: mindestens eine Lösung der charakteristischen Gleichung hat einen positiven Realteil, oder es liegt ein Resonanzfall bei \Re{\lambda} = 0 vor.
     \end{itemize}
 
     \subsection{Stationäre Genauigkeit}
@@ -162,16 +190,23 @@ Diese können gelöst werden durch:
     \begin{sectionbox}
         \subsection{Modell des Standardregelkreises}
         \vspace{1mm}
-        Führungsübertragungsfunktion $G_{W}(s)$ und Störgrößen- übertragungsfunktion $G_{Z}(s)$ müssen zusammen 1 ergeben:
+        \textbf{Standardregelkreis:} \[Y(s) = G_W(s)W(s) + G_Z(s)Z(s)\]
+        \textbf{Übertragungsfunktion der offenen Kette:} \[G_0(s) = G(s)K(s) \hspace{4mm} \text{mit Kreisverstärkung} \hspace{4mm} k_0 = G_0(0)\]
+        \textbf{Führungsübertragungsfunktion} (für $Z(s)=0$): \[ G_{W}(s)  = \frac{Y(s)}{W(s)} = \frac{G(s)K(s)}{1+G(s)K(s)} = \frac{G_0(s)}{1+G_0(s)}\]
+        \textbf{Störübertragungsfunktion} (für $W(s)=0$): \[ G_{Z}(s) = \frac{Y(s)}{Z(s)} = \frac{1}{1+G(s)K(s)} = \frac{1}{1+G_0(s)}\]
         \begin{align*}
             G_{W}(s) + G_{Z}(s) = 1
         \end{align*}
+        \textbf{Stabilitätsbedingung der offenen Kette:} \[ 1 + G_0(s) = 0\]
 
 
         \subsection{Stationäres Verhalten}
         \vspace{1mm}
         Bleibende Regelabweichung: $e_{ss} = \lim_{t \to \infty} e(t)$ \\
         Lässt sich im Nenner von $G(s)$ mindestens ein $s$ ausklammern, ist die Bleibende Regelabweichung $0$.
+        \vspace{2mm}\\
+        \textbf{Führungssprung:} ($w(t) = \sigma(t)$, $z(t) = 0$) \[ \lim_{t \to \infty} e(t) = \frac{1}{1 + \lim_{s \to 0} G_0(s)}\]
+        \textbf{Störsprung:} ($w(t) = 0$, $z(t) = \sigma(t)$) \[ \lim_{t \to \infty} e(t) = \frac{-1}{\lim_{s \to 0} G_0(s)}\]
     \end{sectionbox}
 
 
@@ -219,14 +254,25 @@ Diese können gelöst werden durch:
 
     \subsection{PID-Regler}
     \begin{sectionbox}
-        \begin{align*}
+        \begin{equation*}
             u(t) = K_R\{e(t)\} = k_p e(t) + k_i \int_0^\tau e(t) d\tau + k_d \frac{de(t)}{dt} \\
-        \end{align*}
+        \end{equation*}
+        \begin{equation*}
+            \TransformHoriz K_{PID}(s) = k_p + \frac{k_i}{s} + k_d s = k_p \left(1+ \frac{1}{T_I s} +T_D s \right)
+        \end{equation*}
+
         \begin{itemize}
             \item $k_p$ = Proportionalbeiwert
             \item $k_i$ = Integralbeiwert
             \item $k_d$ = Differentialbeiwert
+            \item $T_I = \frac{k_p}{k_i}$ = Nachstellzeit
+            \item $T_D = \frac{k_d}{k_p}$ = Vorhaltezeit
         \end{itemize}
+
+        \textbf{Realisierung des Differentialteils (DT-1 Glied):}
+        \begin{equation*}
+            \frac{k_p T_D s}{Ts+1}
+        \end{equation*}
 \end{sectionbox}
 
 

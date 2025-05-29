@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.27)  24 MAY 2025 18:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.27)  29 MAY 2025 01:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1070,7 +1070,10 @@ Class scrartcl Warning: Usage of package `parskip' together
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
 
 Couldn't patch \@startsection
-))
+)) (C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/trsym\trsym.sty
+Package: trsym 2000/06/25v1.0transformation symbol font
+\symtransfsymbol=\mathgroup7
+)
 
 LaTeX Warning: Unused global option(s):
     [landscape].
@@ -1192,7 +1195,10 @@ Package siunitx Warning: Option "math-rm" has been removed in this release.
 
 Package siunitx Warning: Option "text-rm" has been removed in this release.
 
-
+LaTeX Font Info:    Trying to load font information for U+trsy on input line 28.
+(C:\Users\johan\AppData\Local\Programs\MiKTeX\tex/latex/trsym\utrsy.fd
+File: utrsy.fd 2000/06/25v1.0transformation symbol font definitions
+)
 Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
@@ -1223,12 +1229,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--91
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
-[]\OT1/cmss/m/n/6 F[]uhrungs[]ubertragungsfunktion $\OML/cmm/m/it/6 G[]\OT1/cmr/m/n/6 (\OML/cmm/m/it/6 s\OT1/cmr/m/n/6 )$ \OT1/cmss/m/n/6 und St[]orgr[]o^^Yen-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
 
  []
 
@@ -1255,17 +1256,17 @@ Package rerunfilecheck Info: File `RTFS.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25554 strings out of 473523
- 513617 string characters out of 5714630
- 1136520 words of memory out of 5000000
- 48423 multiletter control sequences out of 15000+600000
- 563605 words of font info for 55 fonts, out of 8000000 for 9000
+ 25601 strings out of 473523
+ 514696 string characters out of 5714630
+ 1154671 words of memory out of 5000000
+ 48461 multiletter control sequences out of 15000+600000
+ 563647 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 122i,10n,121p,10955b,1598s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\johan\AppData\Local\MiKTeX\fonts/pk/ljfour/public/esint/dpi360\esint10.pk> <C:\Users\johan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss0600.pk><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-Output written on RTFS.pdf (1 page, 138633 bytes).
+ 122i,11n,121p,10973b,1603s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\johan\AppData\Local\MiKTeX\fonts/pk/ljfour/public/trsym/dpi360\trsy10.pk> <C:\Users\johan\AppData\Local\MiKTeX\fonts/pk/ljfour/public/esint/dpi360\esint10.pk> <C:\Users\johan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss0600.pk><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
+Output written on RTFS.pdf (1 page, 147399 bytes).
 PDF statistics:
- 172 PDF objects out of 1000 (max. 8388607)
- 30 named destinations out of 1000 (max. 500000)
- 193 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 182 PDF objects out of 1000 (max. 8388607)
+ 31 named destinations out of 1000 (max. 500000)
+ 201 words of extra memory for PDF output out of 10000 (max. 10000000)
 
